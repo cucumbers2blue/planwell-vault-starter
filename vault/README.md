@@ -19,9 +19,16 @@ CONTRIBUTING.md
 ## Pro App Setup
 
 1. Open Pro config: `~/.planwell/pro.toml`
-2. Set:
+2. Set `vault_path` to the folder that directly contains `classes/`, `events/`, `categories/`, `todos/`, and `settings/`.
+
+If you cloned this repository:
 ```toml
 vault_path = "/absolute/path/to/planwell-vault-starter/vault"
+```
+
+If you downloaded `starter-vault.zip`:
+```toml
+vault_path = "/absolute/path/to/starter-vault"
 ```
 3. Save config and reload Pro.
 
